@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="531mm"
+   height="400mm"
+   viewBox="0 0 531 400"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   sodipodi:docname="argobots_design.svg">
+  <defs
+     id="defs2">
+    <clipPath
+       id="clip0">
+      <rect
+         id="rect833"
+         height="874"
+         width="1105"
+         y="15"
+         x="17" />
+    </clipPath>
+    <clipPath
+       id="clip0-5">
+      <rect
+         x="689"
+         y="35"
+         width="526"
+         height="386"
+         id="rect1455" />
+    </clipPath>
+    <clipPath
+       id="clip0-4">
+      <rect
+         x="689"
+         y="35"
+         width="526"
+         height="386"
+         id="rect1690" />
+    </clipPath>
+    <clipPath
+       id="clip0-7">
+      <rect
+         x="689"
+         y="35"
+         width="526"
+         height="386"
+         id="rect2160" />
+    </clipPath>
+    <clipPath
+       id="clip0-3">
+      <rect
+         x="689"
+         y="35"
+         width="526"
+         height="386"
+         id="rect2771" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="63.185531"
+     inkscape:cy="1273.5145"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     inkscape:window-width="3840"
+     inkscape:window-height="2066"
+     inkscape:window-x="-11"
+     inkscape:window-y="2149"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       id="rect2776"
+       fill="#0b3868"
+       height="55.118"
+       width="373.11801"
+       y="335.6915"
+       x="1.99046" />
+    <path
+       id="path2778"
+       fill-rule="evenodd"
+       fill="#092d54"
+       d="m 375.11046,335.69152 152.88,-152.882 v 55.118 l -152.88,152.882 z" />
+    <path
+       id="path2780"
+       fill-rule="evenodd"
+       fill="#3b5f86"
+       d="m 1.99046,335.69152 152.882,-152.882 h 373.118 l -152.88,152.882 z" />
+    <text
+       y="373.80951"
+       x="126.57146"
+       id="text2782"
+       font-size="28px"
+       font-weight="400"
+       font-family="'Century Gothic', 'Century Gothic_MSFontService', sans-serif"
+       fill="#ffffff">Argobots</text>
+    <rect
+       id="rect2784"
+       fill="#1b8ec9"
+       height="31.1346"
+       width="181.13499"
+       y="213.67453"
+       x="273.99045" />
+    <path
+       id="path2786"
+       fill-rule="evenodd"
+       fill="#1672a2"
+       d="m 455.12046,213.67452 70.87,-70.865 v 31.135 l -70.87,70.865 z" />
+    <path
+       id="path2788"
+       fill-rule="evenodd"
+       fill="#48a4d4"
+       d="m 273.99046,213.67452 70.87,-70.865 h 181.13 l -70.87,70.865 z" />
+    <rect
+       id="rect2790"
+       fill="#1b8ec9"
+       height="31.1346"
+       width="181.13499"
+       y="293.6745"
+       x="1.99046" />
+    <path
+       id="path2792"
+       fill-rule="evenodd"
+       fill="#1672a2"
+       d="m 183.12546,293.67452 70.865,-70.865 v 31.135 l -70.865,70.865 z" />
+    <path
+       id="path2794"
+       fill-rule="evenodd"
+       fill="#48a4d4"
+       d="m 1.99046,293.67452 70.865,-70.865 h 181.135 l -70.865,70.865 z" />
+    <text
+       y="316.80951"
+       x="16.171459"
+       id="text2796"
+       font-size="18px"
+       font-weight="400"
+       font-family="'Century Gothic', 'Century Gothic_MSFontService', sans-serif"
+       fill="#ffffff">Execution Stream</text>
+    <rect
+       id="rect2798"
+       fill="#1b8ec9"
+       height="31.1346"
+       width="181.13499"
+       y="293.6745"
+       x="193.99046" />
+    <path
+       id="path2800"
+       fill-rule="evenodd"
+       fill="#1672a2"
+       d="m 375.12046,293.67452 70.87,-70.865 v 31.135 l -70.87,70.865 z" />
+    <path
+       id="path2802"
+       fill-rule="evenodd"
+       fill="#48a4d4"
+       d="m 193.99046,293.67452 70.865,-70.865 h 181.135 l -70.87,70.865 z" />
+    <text
+       y="316.80951"
+       x="208.17146"
+       id="text2804"
+       font-size="18px"
+       font-weight="400"
+       font-family="'Century Gothic', 'Century Gothic_MSFontService', sans-serif"
+       fill="#ffffff">Execution Stream</text>
+    <rect
+       id="rect2806"
+       fill="#8bc7e4"
+       height="31.1346"
+       width="181.13499"
+       y="169.67453"
+       x="81.990463" />
+    <path
+       id="path2808"
+       fill-rule="evenodd"
+       fill="#70a0b7"
+       d="m 263.12546,169.67452 70.865,-70.864996 v 31.134996 l -70.865,70.865 z" />
+    <path
+       id="path2810"
+       fill-rule="evenodd"
+       fill="#a2d2e9"
+       d="m 81.99046,169.67452 70.865,-70.864996 h 181.135 l -70.865,70.864996 z" />
+    <rect
+       id="rect2812"
+       fill="#8bc7e4"
+       height="31.1346"
+       width="181.13499"
+       y="169.67453"
+       x="273.99045" />
+    <path
+       id="path2814"
+       fill-rule="evenodd"
+       fill="#70a0b7"
+       d="m 455.12046,169.67452 70.87,-70.864996 v 31.134996 l -70.87,70.865 z" />
+    <path
+       id="path2816"
+       fill-rule="evenodd"
+       fill="#a2d2e9"
+       d="m 273.99046,169.67452 70.87,-70.864996 h 181.13 l -70.87,70.864996 z" />
+    <rect
+       id="rect2818"
+       fill="#8bc7e4"
+       height="31.1346"
+       width="181.13499"
+       y="249.67451"
+       x="1.99046" />
+    <path
+       id="path2820"
+       fill-rule="evenodd"
+       fill="#70a0b7"
+       d="m 183.12546,249.67452 70.865,-70.865 v 31.135 l -70.865,70.865 z" />
+    <path
+       id="path2822"
+       fill-rule="evenodd"
+       fill="#a2d2e9"
+       d="m 1.99046,249.67452 70.865,-70.865 h 181.135 l -70.865,70.865 z" />
+    <text
+       y="273.80951"
+       x="41.046459"
+       id="text2824"
+       font-size="21px"
+       font-weight="400"
+       font-family="'Century Gothic', 'Century Gothic_MSFontService', sans-serif"
+       fill="#ffffff">Scheduler</text>
+    <rect
+       id="rect2826"
+       fill="#8bc7e4"
+       height="31.1346"
+       width="181.13499"
+       y="249.67451"
+       x="193.99046" />
+    <path
+       id="path2828"
+       fill-rule="evenodd"
+       fill="#70a0b7"
+       d="m 375.12046,249.67452 70.87,-70.865 v 31.135 l -70.87,70.865 z" />
+    <path
+       id="path2830"
+       fill-rule="evenodd"
+       fill="#a2d2e9"
+       d="m 193.99046,249.67452 70.865,-70.865 h 181.135 l -70.87,70.865 z" />
+    <text
+       y="273.80951"
+       x="233.04646"
+       id="text2832"
+       font-size="21px"
+       font-weight="400"
+       font-family="'Century Gothic', 'Century Gothic_MSFontService', sans-serif"
+       fill="#ffffff">Scheduler</text>
+    <rect
+       id="rect2834"
+       fill="#d6dce5"
+       height="31.283199"
+       width="60.283199"
+       y="87.526527"
+       x="135.99046" />
+    <path
+       id="path2836"
+       fill-rule="evenodd"
+       fill="#acb1b8"
+       d="m 196.27346,87.526524 15.717,-15.717 v 31.282996 l -15.717,15.717 z" />
+    <path
+       id="path2838"
+       fill-rule="evenodd"
+       fill="#dee3ea"
+       d="m 135.99046,87.526524 15.717,-15.717 h 60.283 l -15.717,15.717 z" />
+    <text
+       y="110.80952"
+       x="162.12746"
+       id="text2840"
+       font-size="24px"
+       font-weight="400"
+       font-family="Calibri, Calibri_MSFontService, sans-serif">t</text>
+    <rect
+       id="rect2842"
+       fill="#d0cece"
+       height="31.283199"
+       width="59.283199"
+       y="87.526527"
+       x="204.99046" />
+    <path
+       id="path2844"
+       fill-rule="evenodd"
+       fill="#a7a6a6"
+       d="m 264.27346,87.526524 15.717,-15.717 v 31.282996 l -15.717,15.717 z" />
+    <path
+       id="path2846"
+       fill-rule="evenodd"
+       fill="#d9d8d8"
+       d="m 204.99046,87.526524 15.717,-15.717 h 59.283 l -15.717,15.717 z" />
+    <text
+       y="110.80952"
+       x="228.50346"
+       id="text2848"
+       font-size="24px"
+       font-weight="400"
+       font-family="Calibri, Calibri_MSFontService, sans-serif">T</text>
+    <rect
+       id="rect2850"
+       fill="#d0cece"
+       height="31.283199"
+       width="60.283199"
+       y="56.526321"
+       x="135.99046" />
+    <path
+       id="path2852"
+       fill-rule="evenodd"
+       fill="#a7a6a6"
+       d="m 196.27346,56.526324 15.717,-15.7168 v 31.2832 l -15.717,15.7168 z" />
+    <path
+       id="path2854"
+       fill-rule="evenodd"
+       fill="#d9d8d8"
+       d="m 135.99046,56.526324 15.717,-15.7168 h 60.283 l -15.717,15.7168 z" />
+    <text
+       y="79.809525"
+       x="160.25246"
+       id="text2856"
+       font-size="24px"
+       font-weight="400"
+       font-family="Calibri, Calibri_MSFontService, sans-serif">T</text>
+    <rect
+       id="rect2858"
+       fill="#d6dce5"
+       height="31.948799"
+       width="59.948898"
+       y="87.860527"
+       x="333.99045" />
+    <path
+       id="path2860"
+       fill-rule="evenodd"
+       fill="#acb1b8"
+       d="m 393.94046,87.860524 16.05,-16.051 v 31.948996 l -16.05,16.051 z" />
+    <path
+       id="path2862"
+       fill-rule="evenodd"
+       fill="#dee3ea"
+       d="m 333.99046,87.860524 16.05,-16.051 h 59.95 l -16.05,16.051 z" />
+    <text
+       y="111.80952"
+       x="359.83047"
+       id="text2864"
+       font-size="24px"
+       font-weight="400"
+       font-family="Calibri, Calibri_MSFontService, sans-serif">t</text>
+    <rect
+       id="rect2866"
+       fill="#d0cece"
+       height="31.948799"
+       width="58.948898"
+       y="110.86052"
+       x="307.99045" />
+    <path
+       id="path2868"
+       fill-rule="evenodd"
+       fill="#a7a6a6"
+       d="m 366.94046,110.86052 16.05,-16.050996 v 31.948996 l -16.05,16.051 z" />
+    <path
+       id="path2870"
+       fill-rule="evenodd"
+       fill="#d9d8d8"
+       d="m 307.99046,110.86052 16.05,-16.050996 h 58.95 l -16.05,16.050996 z" />
+    <text
+       y="134.80952"
+       x="331.76047"
+       id="text2872"
+       font-size="24px"
+       font-weight="400"
+       font-family="Calibri, Calibri_MSFontService, sans-serif">T</text>
+    <rect
+       id="rect2874"
+       fill="#d6dce5"
+       height="31.283199"
+       width="60.283199"
+       y="57.526321"
+       x="333.99045" />
+    <path
+       id="path2876"
+       fill-rule="evenodd"
+       fill="#acb1b8"
+       d="m 394.27046,57.526324 15.72,-15.7168 v 31.2832 l -15.72,15.7168 z" />
+    <path
+       id="path2878"
+       fill-rule="evenodd"
+       fill="#dee3ea"
+       d="m 333.99046,57.526324 15.72,-15.7168 h 60.28 l -15.72,15.7168 z" />
+    <text
+       y="80.809525"
+       x="359.83047"
+       id="text2880"
+       font-size="24px"
+       font-weight="400"
+       font-family="Calibri, Calibri_MSFontService, sans-serif">t</text>
+    <rect
+       id="rect2882"
+       fill="#d0cece"
+       height="31.283199"
+       width="60.283199"
+       y="26.526325"
+       x="333.99045" />
+    <path
+       id="path2884"
+       fill-rule="evenodd"
+       fill="#a7a6a6"
+       d="m 394.27046,26.526324 15.72,-15.7168 v 31.2832 l -15.72,15.7168 z" />
+    <path
+       id="path2886"
+       fill-rule="evenodd"
+       fill="#d9d8d8"
+       d="m 333.99046,26.526324 15.72,-15.7168 h 60.28 l -15.72,15.7168 z" />
+    <text
+       y="49.809525"
+       x="357.95047"
+       id="text2888"
+       font-size="24px"
+       font-weight="400"
+       font-family="Calibri, Calibri_MSFontService, sans-serif">T</text>
+    <rect
+       id="rect2890"
+       fill="#d0cece"
+       height="31.283199"
+       width="59.283199"
+       y="87.526527"
+       x="403.99045" />
+    <path
+       id="path2892"
+       fill-rule="evenodd"
+       fill="#a7a6a6"
+       d="m 463.27046,87.526524 15.72,-15.717 v 31.282996 l -15.72,15.717 z" />
+    <path
+       id="path2894"
+       fill-rule="evenodd"
+       fill="#d9d8d8"
+       d="m 403.99046,87.526524 15.72,-15.717 h 59.28 l -15.72,15.717 z" />
+    <text
+       y="110.80952"
+       x="427.76047"
+       id="text2896"
+       font-size="24px"
+       font-weight="400"
+       font-family="Calibri, Calibri_MSFontService, sans-serif">T</text>
+    <rect
+       id="rect2898"
+       fill="#d6dce5"
+       height="31.283199"
+       width="59.283199"
+       y="173.52652"
+       x="60.990459" />
+    <path
+       id="path2900"
+       fill-rule="evenodd"
+       fill="#acb1b8"
+       d="m 120.27346,173.52652 15.717,-15.717 v 31.283 l -15.717,15.717 z" />
+    <path
+       id="path2902"
+       fill-rule="evenodd"
+       fill="#dee3ea"
+       d="m 60.99046,173.52652 15.717,-15.717 h 59.283 l -15.717,15.717 z" />
+    <text
+       y="196.80952"
+       x="86.408463"
+       id="text2904"
+       font-size="24px"
+       font-weight="400"
+       font-family="Calibri, Calibri_MSFontService, sans-serif">t</text>
+    <rect
+       id="rect2906"
+       fill="#d6dce5"
+       height="31.948799"
+       width="58.948799"
+       y="141.86052"
+       x="60.990459" />
+    <path
+       id="path2908"
+       fill-rule="evenodd"
+       fill="#acb1b8"
+       d="m 119.93946,141.86052 16.051,-16.051 v 31.949 l -16.051,16.051 z" />
+    <path
+       id="path2910"
+       fill-rule="evenodd"
+       fill="#dee3ea"
+       d="m 60.99046,141.86052 16.051,-16.051 h 58.949 l -16.051,16.051 z" />
+    <text
+       y="165.80952"
+       x="86.408463"
+       id="text2912"
+       font-size="24px"
+       font-weight="400"
+       font-family="Calibri, Calibri_MSFontService, sans-serif">t</text>
+    <rect
+       id="rect2914"
+       fill="#d0cece"
+       height="31.283199"
+       width="60.283199"
+       y="170.52652"
+       x="256.99045" />
+    <path
+       id="path2916"
+       fill-rule="evenodd"
+       fill="#a7a6a6"
+       d="m 317.27046,170.52652 15.72,-15.717 v 31.283 l -15.72,15.717 z" />
+    <path
+       id="path2918"
+       fill-rule="evenodd"
+       fill="#d9d8d8"
+       d="m 256.99046,170.52652 15.717,-15.717 h 60.283 l -15.72,15.717 z" />
+    <text
+       y="193.80952"
+       x="280.97745"
+       id="text2920"
+       font-size="24px"
+       font-weight="400"
+       font-family="Calibri, Calibri_MSFontService, sans-serif">T</text>
+  </g>
+</svg>

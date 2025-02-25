@@ -1,0 +1,308 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Argobots | A Lightweight Low-level Threading/Tasking Framework</title>
+<meta name="generator" content="Jekyll v4.0.0" />
+<meta property="og:title" content="Argobots" />
+<meta name="author" content="Argonne National Laboratory" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Argobots: A Lightweight Low-level Threading Framework" />
+<meta property="og:description" content="Argobots: A Lightweight Low-level Threading Framework" />
+<link rel="canonical" href="https://argobots.org/" />
+<meta property="og:url" content="https://argobots.org/" />
+<meta property="og:site_name" content="Argobots" />
+<script type="application/ld+json">
+{"sameAs":["https://github.com/pmodels/argobots"],"description":"Argobots: A Lightweight Low-level Threading Framework","url":"https://argobots.org/","@type":"WebSite","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://argobots.org/siteicon.png"},"name":"Argonne National Laboratory"},"headline":"Argobots","author":{"@type":"Person","name":"Argonne National Laboratory"},"name":"Argobots","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link type="application/atom+xml" rel="alternate" href="https://argobots.org/feed.xml" title="Argobots" />
+
+    <link rel="stylesheet" href="/css/screen.css">
+
+    
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    
+      <script>
+        window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+        ga('create', '', 'auto');
+        ga('send', 'pageview');
+      </script>
+      <script async src='https://www.google-analytics.com/analytics.js'></script>
+    
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="company-name" style="max-width:20%;"><a href="/"><img src="/images/logo.svg" width="140" height="40" style="max-width:100%;"/></a></div>
+        <nav>
+	<a class="nav-toggle" id="open-nav" href="#">&#9776;</a>
+	
+		
+		
+
+		
+		<a href="/
+" class=" active"  style="white-space: nowrap;">Home</a>
+	
+		
+		
+
+		
+		<a href="/learn/
+" class=""  style="white-space: nowrap;">Learn</a>
+	
+		
+		
+
+		
+		<a href="/downloads/
+" class=""  style="white-space: nowrap;">Downloads</a>
+	
+		
+		
+
+		
+		<a href="/support/
+" class=""  style="white-space: nowrap;">Support</a>
+	
+		
+		
+
+		
+		<a href="/publications/
+" class=""  style="white-space: nowrap;">Publications</a>
+	
+		
+		
+
+		
+		<a href="/developers/
+" class=""  style="white-space: nowrap;">Developers Docs</a>
+	
+		
+		
+
+		
+		<a href="/team/
+" class=""  style="white-space: nowrap;">Team</a>
+	
+</nav>
+
+      </div>
+    </header>
+    <section class="hero">
+	<div class="text-container">
+    	<div class="container flex" style="margin-left:10%;margin-right:10%;">
+	        <div class="cta" style="max-width:50%;"><img src="/images/logo_sq.svg" width="210" height="150" style="max-width:100%;"/></div>
+		</div>
+    	<div class="container flex" style="margin-left:10%;margin-right:10%;">
+			<div class="cta button alt"><a href="/downloads/">
+			
+		<svg role="img" viewBox="1 0 19 18" width="1rem" xmlns="http://www.w3.org/2000/svg">
+    	<path d="M 7.9999995,1.9999999 V 10.571428 H 3.9999996 l 5.9999999,3.428571 5.9999995,-3.428571 h -4 V 1.9999999 Z" /> <path d="m 2.0418208,14.972742 v 2.150219 H 17.958178 v -2.150219 z" /></svg>
+
+
+
+			Download</a></div>
+			<div class="cta button alt"><a href="https://github.com/pmodels/argobots">
+			
+		<svg role="img" viewBox="0 0 24 24" width="1rem" xmlns="http://www.w3.org/2000/svg"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+	
+
+
+			GitHub</a></div>
+		</div>
+	</div>
+</section>
+
+<div class="content">
+	<section class="page">
+		<div class="container">
+			<div class="text">
+				<h2>Argobots: A Lightweight Low-level Threading Framework</h2>
+			</div>
+			<div class="flex_twol">
+				<div class="text">
+					<p>
+						Argobots is a lightweight runtime system that supports integrated computation and data movement with massive concurrency.  It will directly leverage the lowest-level constructs in the hardware and OS: lightweight notification mechanisms, data movement engines, memory mapping, and data placement strategies.
+					</p>
+					<p>
+						Argobots is used by numerous industrial and academic collaborators such as Intel, The HDF group, RIKEN, and BSC.  Argobots was chosen as <a href="https://www.rdworldonline.com/finalists-for-2020-rd-100-awards-are-unveiled/">a finalist for the 2020 R&D 100 Awards</a>.
+					</p>
+				</div>
+				<div class="image_tiny">
+					<img src="/images/2020RDFinalist.png"/>
+				</div>
+			</div>
+			<div class="container-border">
+				<div class="container flex">
+					<div class="text">
+						<h3>Argobots 1.1 was released</h3>
+						<p>
+							Argobots 1.1 added numerous features, improved the performance, and fixed several bugs.  A list of changes can be found here: <a href="/changes/argobots_1_1">changes in Argobots 1.1</a>.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="container-border">
+				<div class="container flex_twol">
+					<div class="text">
+						<h3>Working together with <a href="https://www.hpccharm.com">Charmworks</a> to improve Argobots</h3>
+						<p>
+							We are excited to announce that the Argobots team at Argonne National Laboratory will work with <a href="https://www.hpccharm.com">Charmworks</a> to expand and enhance Argobots (see <a href="https://www.hpccharm.com/post/charmworks-to-enhance-the-argobots-pro-task-based-threading-framework">the press release</a>).  The Argobots team will keep working on the open-source Argobots for better performance, functionality, portability, and interoperability.
+						</p>
+					</div>
+					<div class="image_petit">
+						<img src="/images/charmworks.png"/>
+					</div>
+				</div>
+			</div>
+			<div class="container flex_twol">
+				<div class="text">
+					<h3>Lightweight Threads and Tasklets</h3>
+					<p>
+						Argobots implements lightweight parallel work units, such as lightweight threads or tasklets, that can dynamically and efficiently adapt to the tug of requirements from applications and hardware resources.  Threads and tasklets are efficiently scheduled based on power, resilience, memory locality, and capabilities.  Threads and tasklets are executed by abstracted execution entities called execution streams.
+					</p>
+				</div>
+				<div class="image">
+					<img src="/images/argobots_design.svg"/>
+				</div>
+			</div>
+			<div class="container flex_twor">
+				<div class="text">
+					<h3>Customizable Schedulers</h3>
+					<p>
+						Localized scheduling strategies such as those used in current runtime systems, while efficient for short execution, are unaware of global strategies and priorities.  Adaptability and dynamic application behavior must be handled by scheduling strategies that can change over time or be customized for a particular algorithm or data structure. “Plugging” in a specialized scheduling strategy lets the OS/R handle the mechanism and utilize lightweight notification features while leaving the policy to higher levels of the system-software stack.
+					</p>
+				</div>
+				<div class="image">
+					<img src="/images/sched.svg"/>
+				</div>
+			</div>
+			<div class="container flex_twol">
+				<div class="text">
+					<h3>High Portability</h3>
+					<p>
+						Argobots works on major UNIX-based platforms including Ubuntu, FreeBSD, CentOS, macOS, and Solaris. Argobots supports most CPU architectures with special optimizations for Intel/AMD x86/64, ARMv8-A, and POWER 8 and 9.  We regularly test Argobots with numerous C compilers including GCC, Clang, ICC (Intel), XLC (IBM), PGCC (PGI), Solaris Studio (Oracle), and Arm C Compiler for HPC (ARM).  Please check <a href= "/tests">here</a> for details.
+					</p>
+				</div>
+				<div class="image">
+					<img src="/images/support.svg"/>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="text">
+				<h2>Ecosystem of Argobots</h2>
+			</div>
+			<div class="wideimage">
+				<img src="/images/ecosystem.svg" />
+			</div>
+			<div class="text">
+				<p>
+					Argobots has been expanding its ecosystem both inside and outside the Argo project. Various programming models are integrating Argobots into their runtime so that their applications can take advantage of Argobots without modifying the code.
+					<ul>
+						<li><a href="https://github.com/daos-stack/daos">Intel DAOS</a></li>
+						<li>RIKEN OpenMP/XcalableMP</li>
+						<li>OmpSs (BSC)</li>
+						<li><a href="https://mochi.readthedocs.io/en/latest/">Margo: Mercury over Argobots</a></li>
+						<li><a href="https://www.bolt-omp.org/"> BOLT: OpenMP over Argobots</a></li>
+						<li>Open MPI interoperation with Argobots</li>
+						<li>MPICH interoperation with Argobots</li>
+						<li>Charm++ over Argobots</li>
+						<li>CilkBots over Argobots</li>
+						<li>TASCEL over Argobots</li>
+						<li>PaRSEC over Argobots</li>
+					</ul>
+				</p>
+			</div>
+		</div>
+	</section>
+</div>
+
+    <footer>
+      <div class="container">
+        <div class="footer-columns">
+          
+          <ul class="footer-links">
+            
+              <li><a  href="/learn/
+" >
+                
+                Learn</a></li>
+            
+              <li><a  href="/publications/
+" >
+                
+                Publications</a></li>
+            
+          </ul>
+          
+          <ul class="footer-links">
+            
+              <li><a  href="/downloads/
+" >
+                
+                Downloads</a></li>
+            
+              <li><a  href="/developers/
+" >
+                
+                Developers Docs</a></li>
+            
+          </ul>
+          
+          <ul class="footer-links">
+            
+              <li><a  href="/support/
+" >
+                
+                Support</a></li>
+            
+              <li><a  href="/team/
+" >
+                
+                Team</a></li>
+            
+          </ul>
+          
+          <ul class="footer-links">
+            
+              <li><a target="_blank" href="https://github.com/pmodels/argobots
+" class="GitHub-icon">
+                
+                  
+		<svg role="img" viewBox="0 0 24 24" width="1rem" xmlns="http://www.w3.org/2000/svg"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+	
+
+
+                
+                GitHub</a></li>
+            
+          </ul>
+          
+        </div>
+        <p class="copyright">&copy; 2022 The Argobots Project • <a href="https://cloudcannon.com/">Template by CloudCannon</a> (<a href="/LICENSE">license</a>) </p>
+      </div>
+    </footer>
+    <script>
+      document.getElementById("open-nav").onclick = function () {
+        document.body.classList.toggle("nav-open");
+        return false;
+      };
+    </script>
+  </body>
+</html>

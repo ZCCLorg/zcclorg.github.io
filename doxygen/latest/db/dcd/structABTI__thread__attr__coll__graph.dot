@@ -1,0 +1,16 @@
+digraph "ABTI_thread_attr"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="ABTI_thread_attr",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" stacksize" ,fontname="Helvetica"];
+  Node2 [label="size_t",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node3 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" migratable" ,fontname="Helvetica"];
+  Node3 [label="int",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node4 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" stacktype" ,fontname="Helvetica"];
+  Node4 [label="enum ABTI_stack_type",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node5 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" f_cb" ,fontname="Helvetica"];
+  Node5 [label="void(*)(ABT_thread,\l void *)",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node6 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" p_stack\np_cb_arg" ,fontname="Helvetica"];
+  Node6 [label="void *",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+}

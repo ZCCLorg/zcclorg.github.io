@@ -1,0 +1,32 @@
+digraph "ABT_pool_def"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ABT_pool_def",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="A struct that defines a pool."];
+  Node2 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" u_free" ,fontname="Helvetica"];
+  Node2 [label="void(*)(ABT_unit *)",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node3 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" u_get_thread" ,fontname="Helvetica"];
+  Node3 [label="ABT_thread(*)(ABT_unit)",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node4 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" u_create_from_thread" ,fontname="Helvetica"];
+  Node4 [label="ABT_unit(*)(ABT_thread)",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node5 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" access" ,fontname="Helvetica"];
+  Node5 [label="enum ABT_pool_access",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node6 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" p_push" ,fontname="Helvetica"];
+  Node6 [label="void(*)(ABT_pool, ABT\l_unit)",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node7 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" p_get_size" ,fontname="Helvetica"];
+  Node7 [label="size_t",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node8 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" u_get_type" ,fontname="Helvetica"];
+  Node8 [label="ABT_unit_type(*)(ABT\l_unit)",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node9 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" p_pop_timedwait" ,fontname="Helvetica"];
+  Node9 [label="ABT_unit(*)(ABT_pool,\l double)",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node10 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" u_is_in_pool\np_remove\np_free\np_print_all\np_init" ,fontname="Helvetica"];
+  Node10 [label="int",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node11 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" u_get_task" ,fontname="Helvetica"];
+  Node11 [label="ABT_task(*)(ABT_unit)",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node12 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" u_create_from_task" ,fontname="Helvetica"];
+  Node12 [label="ABT_unit(*)(ABT_task)",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node13 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" p_pop" ,fontname="Helvetica"];
+  Node13 [label="ABT_unit(*)(ABT_pool)",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+}

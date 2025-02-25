@@ -1,0 +1,38 @@
+digraph "ABTI_mem_pool_local_pool"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ABTI_mem_pool_local_pool",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" num_headers_per_bucket\nbucket_index" ,fontname="Helvetica"];
+  Node2 [label="size_t",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node3 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" buckets" ,fontname="Helvetica"];
+  Node3 [label="ABTI_mem_pool_header",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/d24/structABTI__mem__pool__header.html"];
+  Node4 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" bucket_info" ,fontname="Helvetica"];
+  Node4 [label="ABTI_mem_pool_header\l_bucket_info",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d6c/unionABTI__mem__pool__header__bucket__info.html"];
+  Node5 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" lifo_elem" ,fontname="Helvetica"];
+  Node5 [label="ABTI_sync_lifo_element",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/d30/structABTI__sync__lifo__element.html"];
+  Node5 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" p_next" ,fontname="Helvetica"];
+  Node6 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" num_headers" ,fontname="Helvetica"];
+  Node6 [label="int",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node3 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" p_next" ,fontname="Helvetica"];
+  Node7 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" p_global_pool" ,fontname="Helvetica"];
+  Node7 [label="ABTI_mem_pool_global_pool",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/de4/structABTI__mem__pool__global__pool.html"];
+  Node8 -> Node7 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" partial_bucket_lock" ,fontname="Helvetica"];
+  Node8 [label="ABTI_spinlock",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d81/structABTI__spinlock.html"];
+  Node9 -> Node8 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" val" ,fontname="Helvetica"];
+  Node9 [label="ABTD_atomic_bool",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d2c/structABTD__atomic__bool.html"];
+  Node10 -> Node9 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" val" ,fontname="Helvetica"];
+  Node10 [label="uint8_t",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node11 -> Node7 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" mem_page_lifo\nbucket_lifo" ,fontname="Helvetica"];
+  Node11 [label="ABTI_sync_lifo",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node2 -> Node7 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" header_size\nheader_offset\nalignment_hint\npage_size" ,fontname="Helvetica"];
+  Node3 -> Node7 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" partial_bucket" ,fontname="Helvetica"];
+  Node6 -> Node7 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" num_headers_per_bucket\nnum_lp_type_requests" ,fontname="Helvetica"];
+  Node12 -> Node7 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" p_mem_page_empty" ,fontname="Helvetica"];
+  Node12 [label="ABTD_atomic_ptr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d5b/structABTD__atomic__ptr.html"];
+  Node13 -> Node12 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" val" ,fontname="Helvetica"];
+  Node13 [label="void *",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node14 -> Node7 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" lp_type_requests" ,fontname="Helvetica"];
+  Node14 [label="enum ABTU_MEM_LARGEPAGE_TYPE",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+}
