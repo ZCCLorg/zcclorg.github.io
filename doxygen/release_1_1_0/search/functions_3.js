@@ -1,4 +1,0 @@
-var searchData=
-[
-  ['finailze_5flibrary_2485',['finailze_library',['../dc/d57/global_8c.html#a7b2bc6876ea82c5ac8231e9013191e5b',1,'global.c']]]
-];
