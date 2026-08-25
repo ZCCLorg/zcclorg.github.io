@@ -33,180 +33,306 @@
     <link rel="shortcut icon" href="/favicon.ico" />
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
     <link rel="manifest" href="/site.webmanifest" />
-    <meta name="theme-color" content="#ffffff">
+    <meta name="theme-color" content="#07182e">
 
     
   </head>
-  <body>
-    <header>
-      <div class="container">
-        <div class="company-name" style="max-width:20%;"><a href="/"><img src="/images/logo_large.jpeg" width="40" height="40" style="max-width:100%; aspect-ratio:1/1; object-fit:cover; border-radius:6px;"/></a></div>
-        <nav>
-	<a class="nav-toggle" id="open-nav" href="#">&#9776;</a>
-	
+  <body class="home-page">
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand-lockup" href="/" aria-label="ZCCL home">
+          <img class="brand-mark" src="/images/logo_large.jpeg" width="48" height="48" alt="ZCCL logo" />
+          <span class="brand-copy">
+            <strong>ZCCL</strong>
+            <small>Compressed collectives</small>
+          </span>
+        </a>
+        <nav class="site-nav" aria-label="Primary navigation">
+	<button class="nav-toggle" id="open-nav" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Toggle navigation">
+		<span></span><span></span><span></span>
+	</button>
+	<div class="nav-links" id="nav-links">
 		
-		
+			
+			
 
+			
+			<a href="/
+" class=" active" >Home</a>
 		
-		<a href="/
-" class=" active"  style="white-space: nowrap;">Home</a>
-	
-		
-		
+			
+			
 
+			
+			<a href="/learn/
+" class="" >Learn</a>
 		
-		<a href="/learn/
-" class=""  style="white-space: nowrap;">Learn</a>
-	
-		
-		
+			
+			
 
+			
+			<a href="/downloads/
+" class="" >Downloads</a>
 		
-		<a href="/downloads/
-" class=""  style="white-space: nowrap;">Downloads</a>
-	
-		
-		
+			
+			
 
+			
+			<a href="/support/
+" class="" >Support</a>
 		
-		<a href="/support/
-" class=""  style="white-space: nowrap;">Support</a>
-	
-		
-		
+			
+			
 
+			
+			<a href="/publications/
+" class="" >Publications</a>
 		
-		<a href="/publications/
-" class=""  style="white-space: nowrap;">Publications</a>
-	
-		
-		
+			
+			
 
+			
+			<a href="/developers/
+" class="" >Developer Docs</a>
 		
-		<a href="/developers/
-" class=""  style="white-space: nowrap;">Developers Docs</a>
-	
-		
-		
+			
+			
 
+			
+			<a href="/team/
+" class="" >Team</a>
 		
-		<a href="/team/
-" class=""  style="white-space: nowrap;">Team</a>
-	
+	</div>
 </nav>
 
       </div>
     </header>
-    <section class="hero">
-	<div class="text-container">
-    	<div class="container flex" style="margin-left:10%;margin-right:10%;">
-	        <div class="cta" style="max-width:50%;"><img src="/images/logo_large.jpeg" width="180" height="180" style="max-width:100%; aspect-ratio:1/1; object-fit:cover; border-radius:12px; box-shadow:0 4px 20px rgba(0,0,0,0.15);"/></div>
-		</div>
-    	<div class="container flex" style="margin-left:10%;margin-right:10%;">
-			<div class="cta button alt"><a href="/downloads/">
-			
+    <main>
+	<section class="hero">
+		<div class="hero-glow hero-glow-one"></div>
+		<div class="hero-glow hero-glow-two"></div>
+		<div class="container hero-grid">
+			<div class="hero-copy">
+				<div class="eyebrow hero-eyebrow"><span></span> Open-source HPC communication</div>
+				<h1>Move less data.<br><em>Compute faster.</em></h1>
+				<p class="hero-lead">ZCCL co-designs error-bounded compression with collective communication, enabling scientific applications to communicate and compute directly with compressed data.</p>
+				<div class="hero-actions">
+					<a class="button button-primary" href="/downloads/">
+						
 		<svg role="img" viewBox="1 0 19 18" width="1rem" xmlns="http://www.w3.org/2000/svg">
     	<path d="M 7.9999995,1.9999999 V 10.571428 H 3.9999996 l 5.9999999,3.428571 5.9999995,-3.428571 h -4 V 1.9999999 Z" /> <path d="m 2.0418208,14.972742 v 2.150219 H 17.958178 v -2.150219 z" /></svg>
 
 
 
-			Download</a></div>
-			<div class="cta button alt"><a href="https://github.com/ZCCLorg/zccl">
-			
+						Get ZCCL
+					</a>
+					<a class="button button-secondary" href="https://github.com/ZCCLorg/zccl">
+						
 		<svg role="img" viewBox="0 0 24 24" width="1rem" xmlns="http://www.w3.org/2000/svg"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
 	
 
 
-			GitHub</a></div>
-		</div>
-	</div>
-</section>
-
-<div class="content">
-	<section class="page">
-		<div class="container">
-			<div class="text">
-				<h2>ZCCL: The Compression-accelerated Collective Communications Library</h2>
+						View on GitHub
+					</a>
+				</div>
+				<div class="hero-metrics" aria-label="ZCCL capabilities">
+					<div><strong>CPU + GPU</strong><span>Execution paths</span></div>
+					<div><strong>MPI</strong><span>Collective integration</span></div>
+					<div><strong>Error-bounded</strong><span>Scientific compression</span></div>
+				</div>
 			</div>
-			<div class="flex_twol">
-				<div class="text">
-					<p>
-						ZCCL is a first-ever compression-accelerated collective communications library, which can directly communicate and compute with compressed data.
-					</p>
+
+			<div class="hero-visual" aria-hidden="true">
+				<div class="orbit orbit-one"></div>
+				<div class="orbit orbit-two"></div>
+				<div class="data-chip chip-one"><span></span> Compress</div>
+				<div class="data-chip chip-two"><span></span> Communicate</div>
+				<div class="logo-stage">
+					<img src="/images/logo_large.jpeg" width="360" height="360" alt="" />
 				</div>
 			</div>
 		</div>
 	</section>
-</div>
 
-    <footer>
-      <div class="container">
+	<section class="home-section value-section">
+		<div class="container">
+			<div class="section-heading split-heading">
+				<div>
+					<span class="eyebrow">Designed for scale</span>
+					<h2>A communication layer built around compression.</h2>
+				</div>
+				<p>ZCCL treats compression as part of the communication algorithm—not a separate preprocessing step—so large scientific workloads spend less time moving data.</p>
+			</div>
+
+			<div class="feature-grid">
+				<article class="feature-card">
+					<span class="feature-index">01</span>
+					<h3>Compression-aware collectives</h3>
+					<p>Collective operations are co-designed with error-bounded lossy compression to reduce communication volume.</p>
+				</article>
+				<article class="feature-card">
+					<span class="feature-index">02</span>
+					<h3>Compressed-domain computing</h3>
+					<p>Homomorphic techniques enable selected communication and computation directly on compressed representations.</p>
+				</article>
+				<article class="feature-card">
+					<span class="feature-index">03</span>
+					<h3>Research-driven performance</h3>
+					<p>The ZCCL family spans CPU and GPU systems, informed by peer-reviewed work across IPDPS, ICS, and SC.</p>
+				</article>
+			</div>
+		</div>
+	</section>
+
+	<section class="home-section research-section">
+		<div class="container research-callout">
+			<div class="research-copy">
+				<span class="eyebrow light">Latest research · SC 2026</span>
+				<h2>hZCCL2: Vectorized homomorphic compression for collective communication.</h2>
+				<p>Our newest work advances the co-design of compression and communication for modern high-performance systems.</p>
+				<a class="text-link light-link" href="/publications/">Explore publications <span aria-hidden="true">→</span></a>
+			</div>
+			<div class="research-mark" aria-hidden="true">
+				<span>h</span>ZCCL<sup>2</sup>
+			</div>
+		</div>
+	</section>
+
+	<section class="home-section ecosystem-section">
+		<div class="container">
+			<div class="section-heading">
+				<span class="eyebrow">Open-source ecosystem</span>
+				<h2>Explore the ZCCL software family.</h2>
+			</div>
+			<div class="ecosystem-grid">
+				<a class="ecosystem-card featured" href="https://github.com/ZCCLorg/zccl">
+					<span class="repo-badge">Core library</span>
+					<h3>ZCCL</h3>
+					<p>Compression-accelerated collective communication for scientific applications.</p>
+					<span class="card-link">View repository <span>→</span></span>
+				</a>
+				<a class="ecosystem-card" href="https://github.com/szcompressor/SZp">
+					<span class="repo-badge">CPU compression</span>
+					<h3>SZp</h3>
+					<p>An extremely fast error-bounded lossy compressor with OpenMP support.</p>
+					<span class="card-link">View repository <span>→</span></span>
+				</a>
+				<a class="ecosystem-card" href="https://github.com/JiajunHuang1999/FSZ">
+					<span class="repo-badge">GPU compression</span>
+					<h3>FSZ</h3>
+					<p>A GPU compressor designed for high throughput and high compression ratios.</p>
+					<span class="card-link">View repository <span>→</span></span>
+				</a>
+			</div>
+		</div>
+	</section>
+
+	<section class="home-section final-cta-section">
+		<div class="container final-cta">
+			<div>
+				<span class="eyebrow">Build with ZCCL</span>
+				<h2>Ready to accelerate data movement?</h2>
+			</div>
+			<div class="final-cta-actions">
+				<a class="button button-primary" href="/downloads/">Download ZCCL</a>
+				<a class="text-link" href="/developers/">Developer resources <span>→</span></a>
+			</div>
+		</div>
+	</section>
+</main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div class="footer-brand">
+          <a class="brand-lockup footer-lockup" href="/">
+            <img class="brand-mark" src="/images/logo_large.jpeg" width="48" height="48" alt="" />
+            <span class="brand-copy"><strong>ZCCL</strong><small>Move less data. Compute faster.</small></span>
+          </a>
+          <p>Open-source compression-accelerated collective communication for scientific computing at scale.</p>
+        </div>
         <div class="footer-columns">
           
-          <ul class="footer-links">
-            
-              <li><a  href="/learn/
+          <div class="footer-column">
+            <h2>Explore</h2>
+            <ul class="footer-links">
+              
+                <li><a  href="/learn/
 " >
-                
-                Learn</a></li>
-            
-              <li><a  href="/publications/
-" >
-                
-                Publications</a></li>
-            
-          </ul>
-          
-          <ul class="footer-links">
-            
-              <li><a  href="/downloads/
-" >
-                
-                Downloads</a></li>
-            
-              <li><a  href="/developers/
-" >
-                
-                Developers Docs</a></li>
-            
-          </ul>
-          
-          <ul class="footer-links">
-            
-              <li><a  href="/support/
-" >
-                
-                Support</a></li>
-            
-              <li><a  href="/team/
-" >
-                
-                Team</a></li>
-            
-          </ul>
-          
-          <ul class="footer-links">
-            
-              <li><a target="_blank" href="https://github.com/ZCCLorg/zccl
-" class="GitHub-icon">
-                
                   
+                  Learn</a></li>
+              
+                <li><a  href="/publications/
+" >
+                  
+                  Publications</a></li>
+              
+            </ul>
+          </div>
+          
+          <div class="footer-column">
+            <h2>Resources</h2>
+            <ul class="footer-links">
+              
+                <li><a  href="/downloads/
+" >
+                  
+                  Downloads</a></li>
+              
+                <li><a  href="/developers/
+" >
+                  
+                  Developer Docs</a></li>
+              
+            </ul>
+          </div>
+          
+          <div class="footer-column">
+            <h2>Project</h2>
+            <ul class="footer-links">
+              
+                <li><a  href="/support/
+" >
+                  
+                  Support</a></li>
+              
+                <li><a  href="/team/
+" >
+                  
+                  Team</a></li>
+              
+            </ul>
+          </div>
+          
+          <div class="footer-column">
+            <h2>Connect</h2>
+            <ul class="footer-links">
+              
+                <li><a target="_blank" rel="noopener" href="https://github.com/ZCCLorg/zccl
+" class="GitHub-icon">
+                  
+                    
 		<svg role="img" viewBox="0 0 24 24" width="1rem" xmlns="http://www.w3.org/2000/svg"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
 	
 
 
-                
-                GitHub</a></li>
-            
-          </ul>
+                  
+                  GitHub</a></li>
+              
+            </ul>
+          </div>
           
         </div>
-        <p class="copyright">&copy; 2026 The ZCCL Project • <a href="https://cloudcannon.com/">Template by CloudCannon</a> (<a href="/LICENSE">license</a>) </p>
+      </div>
+      <div class="container footer-bottom">
+        <p class="copyright">&copy; 2026 The ZCCL Project</p>
+        <p><a href="/LICENSE">Open-source license</a></p>
       </div>
     </footer>
     <script>
-      document.getElementById("open-nav").onclick = function () {
+      var navToggle = document.getElementById("open-nav");
+      navToggle.onclick = function () {
         document.body.classList.toggle("nav-open");
+        navToggle.setAttribute("aria-expanded", document.body.classList.contains("nav-open"));
         return false;
       };
     </script>
