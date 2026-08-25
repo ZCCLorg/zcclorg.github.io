@@ -1030,7 +1030,7 @@ h4 {
 .container,
 .text-container {
   width: calc(100% - 40px);
-  max-width: 1160px;
+  max-width: 1240px;
   margin: 0 auto;
   padding: 0;
   position: relative; }
@@ -1130,7 +1130,7 @@ a:hover .card-link span {
 
 .header-inner {
   display: flex;
-  min-height: 76px;
+  min-height: 68px;
   align-items: center;
   justify-content: space-between;
   gap: 2rem; }
@@ -1148,8 +1148,8 @@ a:hover .card-link span {
   text-decoration: none; }
 
 .brand-mark {
-  width: 46px;
-  height: 46px;
+  width: 42px;
+  height: 42px;
   border: 1px solid rgba(255, 255, 255, 0.18);
   border-radius: 13px;
   box-shadow: 0 10px 28px rgba(0, 0, 0, 0.22);
@@ -1232,9 +1232,9 @@ a:hover .card-link span {
 /* Homepage */
 .hero {
   position: relative;
-  min-height: 690px;
+  min-height: 560px;
   overflow: hidden;
-  padding: 92px 0 86px;
+  padding: 58px 0 54px;
   background: linear-gradient(115deg, rgba(7, 24, 46, 0.96) 0%, rgba(7, 24, 46, 0.92) 48%, rgba(9, 43, 72, 0.88) 100%), radial-gradient(circle at 82% 36%, rgba(38, 182, 212, 0.18), transparent 34%);
   color: var(--white);
   text-align: left; }
@@ -1272,7 +1272,7 @@ a:hover .card-link span {
   display: grid;
   grid-template-columns: minmax(0, 1.13fr) minmax(360px, 0.87fr);
   align-items: center;
-  gap: 5rem; }
+  gap: 3.5rem; }
 
 .hero-copy,
 .hero-visual {
@@ -1291,7 +1291,7 @@ a:hover .card-link span {
   max-width: 760px;
   margin: 0 0 1.4rem;
   color: var(--white);
-  font-size: clamp(3.15rem, 7vw, 5.65rem);
+  font-size: clamp(3.15rem, 6vw, 5.1rem);
   font-weight: 740;
   letter-spacing: -0.06em;
   line-height: 0.98; }
@@ -1303,7 +1303,7 @@ a:hover .card-link span {
 
 .hero-lead {
   max-width: 660px;
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
   color: rgba(255, 255, 255, 0.68);
   font-size: 1.12rem;
   line-height: 1.75; }
@@ -1312,13 +1312,13 @@ a:hover .card-link span {
   display: flex;
   flex-wrap: wrap;
   gap: 0.85rem;
-  margin-bottom: 3.2rem; }
+  margin-bottom: 2.1rem; }
 
 .hero-metrics {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   max-width: 690px;
-  padding-top: 1.55rem;
+  padding-top: 1.15rem;
   border-top: 1px solid rgba(255, 255, 255, 0.14); }
 
 .hero-metrics div {
@@ -1338,13 +1338,13 @@ a:hover .card-link span {
 
 .hero-visual {
   display: grid;
-  min-height: 460px;
+  min-height: 380px;
   place-items: center; }
 
 .logo-stage {
   position: relative;
   z-index: 3;
-  width: min(78%, 340px);
+  width: min(74%, 290px);
   padding: 14px;
   border: 1px solid rgba(255, 255, 255, 0.18);
   border-radius: 34px;
@@ -1374,12 +1374,12 @@ a:hover .card-link span {
   border-radius: 50%; }
 
 .orbit-one {
-  width: 440px;
-  height: 440px; }
+  width: 370px;
+  height: 370px; }
 
 .orbit-two {
-  width: 330px;
-  height: 330px;
+  width: 285px;
+  height: 285px;
   border-style: dashed;
   transform: rotate(28deg); }
 
@@ -1422,12 +1422,12 @@ a:hover .card-link span {
   50% {
     transform: translateY(-12px) rotate(0deg); } }
 .home-section {
-  padding: 100px 0;
+  padding: 68px 0;
   background: var(--paper); }
 
 .section-heading {
   max-width: 760px;
-  margin-bottom: 3.2rem; }
+  margin-bottom: 2.2rem; }
 
 .section-heading h2 {
   margin-bottom: 0; }
@@ -1437,7 +1437,7 @@ a:hover .card-link span {
   max-width: none;
   grid-template-columns: minmax(0, 1.15fr) minmax(280px, 0.65fr);
   align-items: end;
-  gap: 5rem; }
+  gap: 3rem; }
 
 .split-heading p {
   margin-bottom: 0.25rem; }
@@ -1450,9 +1450,9 @@ a:hover .card-link span {
 
 .feature-card {
   position: relative;
-  min-height: 300px;
+  min-height: 225px;
   overflow: hidden;
-  padding: 2rem;
+  padding: 1.55rem;
   border: 1px solid var(--slate-200);
   border-radius: var(--radius-md);
   background: var(--white);
@@ -1472,7 +1472,7 @@ a:hover .card-link span {
   display: inline-grid;
   width: 44px;
   height: 44px;
-  margin-bottom: 4rem;
+  margin-bottom: 1.8rem;
   border: 1px solid rgba(8, 127, 174, 0.18);
   border-radius: 12px;
   background: var(--ice-100);
@@ -1489,13 +1489,13 @@ a:hover .card-link span {
   font-size: 0.9rem; }
 
 .research-section {
-  padding: 0 0 100px; }
+  padding: 0 0 68px; }
 
 .research-callout {
   display: grid;
   overflow: hidden;
-  min-height: 390px;
-  padding: 4rem;
+  min-height: 300px;
+  padding: 3rem;
   border-radius: var(--radius-lg);
   background: radial-gradient(circle at 90% 10%, rgba(38, 182, 212, 0.26), transparent 31%), linear-gradient(125deg, var(--navy-900), #0b3155);
   box-shadow: var(--shadow-md);
@@ -1542,8 +1542,8 @@ a:hover .card-link span {
 .ecosystem-card {
   position: relative;
   display: flex;
-  min-height: 310px;
-  padding: 2rem;
+  min-height: 235px;
+  padding: 1.55rem;
   border: 1px solid var(--slate-200);
   border-radius: var(--radius-md);
   background: var(--white);
@@ -1574,7 +1574,7 @@ a:hover .card-link span {
 .status-pill {
   display: inline-flex;
   width: fit-content;
-  margin-bottom: 3.5rem;
+  margin-bottom: 2rem;
   padding: 0.38rem 0.62rem;
   border: 1px solid rgba(8, 127, 174, 0.18);
   border-radius: 999px;
@@ -1603,7 +1603,7 @@ a:hover .card-link span {
   font-size: 0.82rem; }
 
 .final-cta-section {
-  padding: 90px 0;
+  padding: 62px 0;
   background: var(--white); }
 
 .final-cta {
@@ -1633,18 +1633,18 @@ a:hover .card-link span {
 
 .content .page {
   margin: 0;
-  padding: 76px 0 100px; }
+  padding: 56px 0 72px; }
 
 .page-heading {
   max-width: 820px;
-  margin-bottom: 3.75rem;
+  margin-bottom: 2.6rem;
   padding: 0;
   background: transparent;
   color: var(--slate-900); }
 
 .page-heading h1 {
   margin: 0;
-  font-size: clamp(2.75rem, 6vw, 4.8rem); }
+  font-size: clamp(2.75rem, 5vw, 4.2rem); }
 
 .page-heading .subtext {
   margin-top: 1rem;
@@ -1656,14 +1656,14 @@ a:hover .card-link span {
   padding: 0; }
 
 .page-section {
-  margin-bottom: 3.2rem; }
+  margin-bottom: 2.3rem; }
 
 .page-section:last-child {
   margin-bottom: 0; }
 
 .page-intro {
   max-width: 760px;
-  margin: -1.5rem 0 3.25rem;
+  margin: -1rem 0 2.2rem;
   color: var(--slate-700);
   font-size: 1.12rem;
   line-height: 1.8; }
@@ -1677,7 +1677,7 @@ a:hover .card-link span {
 
 .intro-panel {
   display: flex;
-  padding: 2rem;
+  padding: 1.55rem;
   border: 1px solid var(--slate-200);
   border-radius: var(--radius-md);
   background: var(--white);
@@ -1696,7 +1696,7 @@ a:hover .card-link span {
 
 .download-card {
   min-width: 0;
-  padding: 2rem;
+  padding: 1.55rem;
   border: 1px solid var(--slate-200);
   border-radius: var(--radius-md);
   background: var(--white);
@@ -1746,7 +1746,7 @@ a:hover .card-link span {
 
 .primary-download {
   display: grid;
-  padding: 2.4rem;
+  padding: 1.8rem;
   grid-template-columns: 0.45fr 1fr;
   align-items: center;
   gap: 2.5rem; }
@@ -1804,13 +1804,13 @@ div.code .highlight .gp {
 
 .publication-card {
   display: grid;
-  padding: 1.7rem;
+  padding: 1.35rem;
   border: 1px solid var(--slate-200);
   border-radius: var(--radius-md);
   background: var(--white);
   box-shadow: 0 6px 20px rgba(9, 30, 55, 0.045);
   grid-template-columns: 56px minmax(0, 1fr);
-  gap: 1.2rem;
+  gap: 0.95rem;
   transition: border-color 180ms ease, box-shadow 180ms ease, transform 180ms ease; }
 
 .publication-card:hover {
@@ -1867,8 +1867,8 @@ div.code .highlight .gp {
   line-height: 1.55; }
 
 .publication-description {
-  margin-bottom: 1rem;
-  padding: 0.85rem 1rem;
+  margin-bottom: 0.8rem;
+  padding: 0.68rem 0.85rem;
   border-left: 3px solid var(--cyan-500);
   border-radius: 0 8px 8px 0;
   background: var(--slate-100);
@@ -1902,7 +1902,7 @@ div.code .highlight .gp {
 .org-section {
   display: grid;
   margin-bottom: 1.2rem;
-  padding: 2rem;
+  padding: 1.55rem;
   border: 1px solid var(--slate-200);
   border-radius: var(--radius-md);
   background: var(--white);
@@ -1986,8 +1986,8 @@ div.code .highlight .gp {
 .resource-card,
 .support-card {
   display: flex;
-  min-height: 275px;
-  padding: 1.8rem;
+  min-height: 220px;
+  padding: 1.5rem;
   border: 1px solid var(--slate-200);
   border-radius: var(--radius-md);
   background: var(--white);
@@ -2007,7 +2007,7 @@ div.code .highlight .gp {
   width: fit-content;
   min-width: 46px;
   height: 46px;
-  margin-bottom: 2.5rem;
+  margin-bottom: 1.5rem;
   padding: 0 0.7rem;
   border: 1px solid rgba(8, 127, 174, 0.16);
   border-radius: 12px;
@@ -2039,14 +2039,14 @@ div.code .highlight .gp {
 
 /* Footer */
 .site-footer {
-  padding: 78px 0 0;
+  padding: 56px 0 0;
   background: radial-gradient(circle at 10% 0%, rgba(38, 182, 212, 0.12), transparent 28%), var(--navy-950);
   color: var(--white); }
 
 .footer-grid {
   display: grid;
   grid-template-columns: minmax(260px, 0.82fr) minmax(0, 1.18fr);
-  gap: 5rem; }
+  gap: 3.5rem; }
 
 .footer-brand {
   max-width: 390px; }
@@ -2100,7 +2100,7 @@ div.code .highlight .gp {
 
 .footer-bottom {
   display: flex;
-  margin-top: 4.5rem;
+  margin-top: 3rem;
   padding: 1.35rem 0;
   border-top: 1px solid rgba(255, 255, 255, 0.08);
   align-items: center;
@@ -2136,7 +2136,7 @@ div.code .highlight .gp {
     gap: 3rem; } }
 @media (max-width: 900px) {
   .header-inner {
-    min-height: 70px; }
+    min-height: 64px; }
 
   .brand-copy small {
     display: block; }
@@ -2177,7 +2177,7 @@ div.code .highlight .gp {
     transform: translateY(-6px) rotate(-45deg); }
 
   .hero {
-    padding: 76px 0; }
+    padding: 58px 0; }
 
   .hero-grid {
     grid-template-columns: 1fr; }
@@ -2186,10 +2186,10 @@ div.code .highlight .gp {
     max-width: 760px; }
 
   .hero-visual {
-    min-height: 400px; }
+    min-height: 340px; }
 
   .logo-stage {
-    width: min(55vw, 310px); }
+    width: min(52vw, 280px); }
 
   .split-heading {
     grid-template-columns: 1fr;
@@ -2237,7 +2237,7 @@ div.code .highlight .gp {
 
   .hero {
     min-height: auto;
-    padding: 64px 0 72px; }
+    padding: 52px 0 58px; }
 
   .hero h1 {
     font-size: clamp(2.75rem, 15vw, 4.2rem); }
@@ -2262,7 +2262,7 @@ div.code .highlight .gp {
     display: none; }
 
   .home-section {
-    padding: 72px 0; }
+    padding: 52px 0; }
 
   .feature-grid,
   .ecosystem-grid,
@@ -2286,24 +2286,24 @@ div.code .highlight .gp {
   .feature-index,
   .repo-badge,
   .resource-icon {
-    margin-bottom: 2rem; }
+    margin-bottom: 1.25rem; }
 
   .research-section {
     padding-top: 0; }
 
   .research-callout {
     width: calc(100% - 24px);
-    padding: 2.25rem 1.5rem;
+    padding: 2rem 1.35rem;
     border-radius: 24px; }
 
   .final-cta-actions {
     width: 100%; }
 
   .content .page {
-    padding: 56px 0 76px; }
+    padding: 44px 0 58px; }
 
   .page-heading {
-    margin-bottom: 2.5rem; }
+    margin-bottom: 1.8rem; }
 
   .page-heading h1 {
     font-size: 2.75rem; }
