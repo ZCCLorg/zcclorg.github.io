@@ -1365,10 +1365,13 @@ a:hover .card-link span {
   content: ""; }
 
 .logo-stage img {
+  display: block;
   width: 100%;
-  aspect-ratio: 1 / 1;
+  height: auto;
+  padding: 8px;
   border-radius: 22px;
-  object-fit: cover; }
+  box-sizing: border-box;
+  object-fit: contain; }
 
 .orbit {
   position: absolute;
